@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ferna\\Desktop\\innovatube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\models\\recaptcharesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\models\\recaptcharesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\controllers\\passwordcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\controllers\\passwordcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\models\\passwordresettoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\models\\passwordresettoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|c:\\users\\ferna\\desktop\\innovatube\\innovatube\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1ECD56D-7F7D-4F8E-98D0-334CA29A585C}|Innovatube\\Innovatube.csproj|solutionrelative:innovatube\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReCaptchaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\ReCaptchaResponse.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Models\\ReCaptchaResponse.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\ReCaptchaResponse.cs",
+              "RelativeToolTip": "Innovatube\\Models\\ReCaptchaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:47:11.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Innovatube\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwDkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T18:06:00.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Models\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\SmtpSettings.cs",
+              "RelativeToolTip": "Innovatube\\Models\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T00:07:16.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\Login.cs",
+              "RelativeToolTip": "Innovatube\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T16:39:02.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Innovatube\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAmwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:13:41.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PasswordController .cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\Innovatube\\Innovatube\\Controllers\\PasswordController .cs",
+              "RelativeDocumentMoniker": "Innovatube\\Controllers\\PasswordController .cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\Innovatube\\Innovatube\\Controllers\\PasswordController .cs",
+              "RelativeToolTip": "Innovatube\\Controllers\\PasswordController .cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:43:23.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\appsettings.json",
+              "RelativeDocumentMoniker": "Innovatube\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\appsettings.json",
+              "RelativeToolTip": "Innovatube\\appsettings.json",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvxYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-29T00:06:03.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\User.cs",
+              "RelativeToolTip": "Innovatube\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T16:47:31.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Startup.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Startup.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Startup.cs",
+              "RelativeToolTip": "Innovatube\\Startup.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T17:36:31.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordResetToken.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\PasswordResetToken.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Models\\PasswordResetToken.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Models\\PasswordResetToken.cs",
+              "RelativeToolTip": "Innovatube\\Models\\PasswordResetToken.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:48:53.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Innovatube\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Ferna\\Desktop\\innovatube\\Innovatube\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Innovatube\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:46:22.419Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

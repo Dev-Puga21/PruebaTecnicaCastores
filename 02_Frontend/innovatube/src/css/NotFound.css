@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7fafc;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .error-code {
+    font-size: 3em;
+    font-weight: bold;
+    color: #e53e3e;
+  }
+  
+  .error-message {
+    font-size: 1.2em;
+    color: #718096;
+  }
+  
+  .back-to-home {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4299e1;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #2b6cb0;
+    }
+  }
+  
