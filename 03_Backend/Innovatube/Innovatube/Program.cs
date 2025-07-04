@@ -21,7 +21,7 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
-startup.Configure(app, app.Lifetime);
+startup.Configure(app, app.Lifetime, app.Environment);
 
 if (app.Environment.IsDevelopment())
 {

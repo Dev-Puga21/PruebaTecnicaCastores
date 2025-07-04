@@ -28,7 +28,7 @@ namespace Innovatube
 
             services.AddCors(options =>
             {
-                options.AddDefaultPolicy(builder =>
+                options.AddPolicy("AllowSpecificOrigins", builder =>
                 {
                     builder.WithOrigins(
                         "http://localhost:4200",
@@ -36,9 +36,11 @@ namespace Innovatube
                         "https://innovatube-prueba.netlify.app"
                     )
                     .AllowAnyMethod()
-                    .AllowAnyHeader();
+                    .AllowAnyHeader()
+                    .AllowCredentials(); // si usas cookies o auth
                 });
             });
+
 
             services.AddControllers();
 
@@ -67,7 +69,7 @@ namespace Innovatube
             });
         }
 
-        public void Configure(IApplicationBuilder app, IHostApplicationLifetime lifetime)
+        public void Configure(IApplicationBuilder app, IHostApplicationLifetime lifetime, IWebHostEnvironment env)
         {
             app.UseSwagger();
             app.UseSwaggerUI(c =>
@@ -75,10 +77,10 @@ namespace Innovatube
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Innovatube API V1");
             });
 
-            app.UseCors();
+            app.UseCors("AllowSpecificOrigins");
 
             app.UseRouting();
-
+            
             app.UseAuthentication();
             app.UseAuthorization();
 
@@ -87,5 +89,6 @@ namespace Innovatube
                 endpoints.MapControllers();
             });
         }
+
     }
 }

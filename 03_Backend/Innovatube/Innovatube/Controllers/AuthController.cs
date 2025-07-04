@@ -68,7 +68,7 @@ namespace Innovatube.Controllers
 
                                 var token = new JwtSecurityToken(
                                     issuer: "https://localhost:7186",
-                                    audience: "https://innovatube-prueba.netlify.app",
+                                    audience: "https://innovatube-prueba-angular.netlify.app",
                                     claims: claims,
                                     expires: DateTime.Now.AddMinutes(30),
                                     signingCredentials: creds);

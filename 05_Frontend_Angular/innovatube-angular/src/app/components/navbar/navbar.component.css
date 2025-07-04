@@ -1,0 +1,11 @@
+nav {
+  font-family: 'Arial', sans-serif;
+}
+
+svg {
+  stroke: #111827;
+}
+
+a.active {
+  color: #ec4899; /* text-pink-600 */
+}

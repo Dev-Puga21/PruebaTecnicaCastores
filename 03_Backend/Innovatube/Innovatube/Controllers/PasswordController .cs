@@ -53,7 +53,7 @@ namespace Innovatube.Controllers
             _context.PasswordResetTokens.Add(resetToken);
             _context.SaveChanges();
 
-            string resetLink = $"https://innovatube-prueba.netlify.app/reset-password?token={token}";
+            string resetLink = $"https://innovatube-prueba-angular.netlify.app/reset-password?token={token}";
 
             var emailMessage = new MimeMessage();
             emailMessage.From.Add(new MailboxAddress("Innovatube", _smtpSettings.User));

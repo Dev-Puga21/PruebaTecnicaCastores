@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Innovatube")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea6f1509c3f18812b8450e7e944e1e53a440b4e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Innovatube")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Innovatube")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

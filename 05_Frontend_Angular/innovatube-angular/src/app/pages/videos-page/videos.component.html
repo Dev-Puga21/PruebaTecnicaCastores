@@ -1,0 +1,98 @@
+<app-search-bar (search)="handleSearch($event)"></app-search-bar>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  <div
+    *ngFor="let video of videos"
+    class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300 flex flex-col"
+  >
+    <img
+      [src]="video.snippet.thumbnails.medium.url"
+      [alt]="video.snippet.title"
+      class="w-full h-48 object-cover"
+    />
+    <div class="p-4 flex flex-col justify-between h-full">
+      <h3 class="text-base font-semibold mb-2 text-gray-800 line-clamp-2">
+        {{ video.snippet.title }}
+      </h3>
+
+      <div class="flex gap-3 mt-auto justify-end">
+        <button
+          (click)="handleFavorite(video)"
+          class="text-lg p-2 rounded hover:bg-gray-200"
+          aria-label="Agregar a favoritos"
+        >
+          ❤️
+        </button>
+
+        <button
+          (click)="handleShare(video.id)"
+          class="bg-gray-200 text-gray-700 p-2 rounded hover:bg-gray-300 flex items-center justify-center"
+          aria-label="Compartir video"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 8a3 3 0 10-2.83-4H7a3 3 0 100 6h2.17A3 3 0 1015 8zM9 12v7a3 3 0 11-6 0v-7m12-1v7a3 3 0 11-6 0v-7"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Paginación -->
+<div class="flex flex-wrap justify-center items-center gap-2 mt-10">
+  <button
+    [disabled]="currentPage === 0"
+    (click)="goToPrev()"
+    class="px-3 py-1 rounded"
+    [ngClass]="{
+      'bg-gray-200 text-gray-400 cursor-not-allowed': currentPage === 0,
+      'bg-gray-300 text-gray-700 hover:bg-gray-400': currentPage > 0
+    }"
+  >
+    Anterior
+  </button>
+
+  <button
+    *ngFor="let token of tokenHistory; index as i"
+    (click)="goToPage(i)"
+    class="px-3 py-1 rounded"
+    [ngClass]="{
+      'bg-blue-600 text-white': currentPage === i,
+      'bg-gray-200 text-gray-700 hover:bg-gray-300': currentPage !== i
+    }"
+  >
+    {{ i + 1 }}
+  </button>
+
+  <button
+    [disabled]="!nextPageToken"
+    (click)="goToNext()"
+    class="px-3 py-1 rounded"
+    [ngClass]="{
+      'bg-gray-200 text-gray-400 cursor-not-allowed': !nextPageToken,
+      'bg-blue-600 text-white hover:bg-blue-700': nextPageToken
+    }"
+  >
+    Siguiente
+  </button>
+</div>
+
+<!-- Toast -->
+<div
+  *ngIf="toastMessage"
+  class="fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-4 py-2 rounded"
+>
+  {{ toastMessage }}
+  <button (click)="closeToast()" class="ml-2 text-sm">x</button>
+</div>

@@ -2776,11 +2776,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ferna\\Desktop\\Prueba Tecnica Castores\\03_Backend\\Innovatube\\Innovatube\\Innovatube.csproj",
+      "projectUniqueName": "C:\\Users\\Ferna\\Desktop\\PruebaTecnicaCastores\\03_Backend\\Innovatube\\Innovatube\\Innovatube.csproj",
       "projectName": "Innovatube",
-      "projectPath": "C:\\Users\\Ferna\\Desktop\\Prueba Tecnica Castores\\03_Backend\\Innovatube\\Innovatube\\Innovatube.csproj",
+      "projectPath": "C:\\Users\\Ferna\\Desktop\\PruebaTecnicaCastores\\03_Backend\\Innovatube\\Innovatube\\Innovatube.csproj",
       "packagesPath": "C:\\Users\\Ferna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ferna\\Desktop\\Prueba Tecnica Castores\\03_Backend\\Innovatube\\Innovatube\\obj\\",
+      "outputPath": "C:\\Users\\Ferna\\Desktop\\PruebaTecnicaCastores\\03_Backend\\Innovatube\\Innovatube\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
